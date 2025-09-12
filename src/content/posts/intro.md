@@ -1,6 +1,6 @@
 ---
-title: "Welcome!"
-description: "A quick intro to me and this space."
+title: "welcome!"
+description: "a quick intro to me and this space."
 pubDate: 2025-09-02
 author: "Sanjay Budhia"
 tags: ["meta"]
