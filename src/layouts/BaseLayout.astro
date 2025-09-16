@@ -8,6 +8,8 @@ import type { LayoutProps } from '@/types'
 
 type Props = LayoutProps
 
+const analyticsUrl = import.meta.env.PUBLIC_UMAMI_ANALYTICS_URL;
+const websiteId = import.meta.env.PUBLIC_UMAMI_WEBSITE_ID;
 const { type = 'page' } = Astro.props
 const language = themeConfig.site.language || 'en-US'
 const contentWidth = themeConfig.general.contentWidth
@@ -21,6 +23,7 @@ const finalWidth = shouldUseCustomWidth ? `${widthValue}rem` : '25rem'
   <head>
     {fadeAnimation && <ClientRouter />}
     <slot name="head" />
+    <script defer src={analyticsUrl} data-website-id={websiteId}></script>
   </head>
   <body
     data-centered={themeConfig.general.centeredLayout}
