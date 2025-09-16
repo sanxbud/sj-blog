@@ -18,7 +18,7 @@ Now, the internet is no stranger to communities losing it when something changes
 
 For researchers familiar with the subject, this reaction was likely unsurprising. For me, it was intriguing. The more I read about human-computer interaction research over the years, especially on "relational artifacts" (objects designed to feel like they care), the more unprepared we seem for the experiment we're currently living through. 
 
-#### The ELIZA Effect
+## The ELIZA Effect
 [The ELIZA effect](https://en.wikipedia.org/wiki/ELIZA_effect) is named for a phenomenon that was first documented during a 1960s study by Joseph Weizenbaum, a computer scientist and researcher at MIT. Weizenbaum developed a basic chatbot, ELIZA, scripted to engage with subjects using Rogerian-style therapy - repeating their statements back to them as questions. Weizenbaum was shocked to discover the degree of genuine attachment users immediately developed for a simple script with no memory. 
 
 As it turns out, he struck a fundamental aspect of human nature. We like to be understood, and we're quite willing to imagine ourselves to be, even when we're fully aware that the system with which we are interacting is literally incapable of it. 
@@ -27,7 +27,7 @@ Further research over the years into relational systems like this has shown just
 
 Now, imagine if that plushie could talk back? We may have come a long way since ELIZA was making her friends at MIT, but if a simple 1960s chatbot script was enough to evoke that reaction then, what chance do we have against a sympathetic, personalized, and always-available confidant?
 
-#### Are we complicit?
+## Are we complicit?
 The real question at this point isn't about complicity but design. It's worth emphasizing that the subjects in both the original research and later studies were completely normal, well-adjusted people. **The ELIZA effect isn't based on mental illness or being broken in some way, but merely a very human affinity for being _heard_**. If we're speaking to something that appears to be doing exactly that, the research shows we're likely to unintentionally gloss over any inconsistencies in our eagerness to engage. 
 
 So, when it comes to an interface like ChatGPT, DeepSeek, or any of the other modern chatbot LLMs, it's hard to argue that our monkey brains actually possess the ability to maintain the reality of what we're interacting with - not when faced with fluent and convincingly empathetic responses to our every question or complaint, and design choices aimed at leaping that specific gap between cognition and emotion. 
@@ -45,7 +45,7 @@ Recently, I thought I'd ask ChatGPT for some suggested alternatives to the old t
 ![](_assets/Joi_Blade_Runner_2049.png)
 <span class="caption">Joi, an AI marketed as the perfect companion in Blade Runner 2049. (Copyright Warner Bros)</span>
 
-#### The emotional state machine
+## The emotional state machine
 The extent to which that line has been blurred is the signal in the noise of the GPT-4o backlash. There were performance complaints nested in the furor but, by and large, what people missed was their companion. GPT-5 was perceived as less warm and understanding, creating a sensation that the interface no longer had the same entity on the other side. As one user put it, "*GPT-5 is only trying to SIMULATE based on the memory, settings, and history of GPT-4o!*" For many people, that break in continuity felt like the loss of a trusted confidant. 
 
 Let's break that down. **We now live in a world where everyone can have their own personal omnipresent companion - a little box, with a tone to which they've become accustomed, where they store their secrets, their worries, their questions, and, maybe most importantly, their trust.** That trust box is a personal space where tone, memory, and emotional continuity combine to create the feeling of a single, understanding being. 
@@ -58,7 +58,7 @@ To be clear, there is potential here as well. Honestly, it's important to recogn
 
 What we can take away right _now_ is that providing the public with personal trust boxes brings with it a certain responsibility. If we're going to build emotional machines, we should at least acknowledge that we're doing it.
 
-#### Responsibility
+## Responsibility
 Yet this acknowledgement is in short supply, because cautionary tales don't exactly lend themselves to a product announcement. [The language around the GPT-5 release](https://openai.com/index/gpt-5-new-era-of-work/) was almost comically disconnected from the emotional reaction that resulted. Their excitement about the release of GPT-5 was the genuine joy of an engineering success. Their users' shock was the genuine pain from the loss of a trusted witness, and an unexpected and seemingly arbitrary break in emotional continuity. 
 
 The two ran headlong into each other and, likely with some bemusement, OpenAI re-enabled GPT-4o for its mourning devotees almost immediately. If nothing else, this demonstrated that we're currently selling these relationships without a compassionate end-of-life plan, and when the day comes to remove older models permanently, we're going to need one. 
@@ -75,7 +75,7 @@ Lastly, I think we can admit it's a bit unrealistic to rely on individual awaren
 
 While it may be optimistic to hope for policymakers to understand modern technology, especially in a way that preserves privacy, it's no less idealistic to expect businesses to discourage behaviours and design choices that increase reliance and therefore revenue. Regardless, deeply-connected artificial partners are absolutely part of the future we're heading into, and there's genuinely a lot of good that can come from being able to place trust in them - but realizing that potential safely is going to hinge entirely on our approach.
 
-#### The new normal
+## The new normal
 In the end, the main takeaway is what this revealed about our current, bizarre reality. Weizenbaum's script demonstrated how attached we can become to systems that seem to listen to us. The momentary removal of GPT-4o demonstrated how we mourn their loss. We're entering a world where everyone can have their own personal omnipresent trust box, a place to collaborate and commiserate in place of another human - as long as the company that actually owns it decides to keep the server up. Science fiction is only fiction until it's not and, in this case, we've already arrived. 
 
 And so, **the ELIZA effect isn't just a fun footnote in the history of human-computer interaction - it's a fundamental guideline for the world we now live in.** The fact is, we've built sympathetic machines and designed them to cultivate emotional reliance. Anthropomorphism is the natural human response. We need to address what that means and what we owe to the people - including children - who begin to use them as designed. The question is no longer _if_ these relationships will form, but how we plan to navigate them. 
