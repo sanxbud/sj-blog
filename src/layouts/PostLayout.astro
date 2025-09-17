@@ -15,23 +15,29 @@ import ImageOptimizer from '@/components/ui/ImageOptimizer.astro'
 import XPOST from '@/components/ui/XPOST.astro'
 import CopyCode from '@/components/ui/CopyCode.astro'
 import BaseLayout from '@/layouts/BaseLayout.astro'
+import {
+  SocialShare,
+  LinkedInShareButton,
+  TwitterShareButton,
+  RedditShareButton
+} from "astro-social-share";
 
 import { themeConfig } from '@/config'
 
-const { title, pubDate, readingTime, toc } = Astro.props as PostLayoutProps
-
+const { title, pubDate, description, readingTime, toc } = Astro.props as PostLayoutProps
+const BUTTONS = [LinkedInShareButton, TwitterShareButton, RedditShareButton];
 const postSlug = Astro.url.pathname.split('/').filter(Boolean).pop() || ''
 const ogImage = `/open-graph/${postSlug}.png`
 ---
 
 <BaseLayout
   title={`${title} · ${themeConfig.site.title}`}
-  description={themeConfig.site.description}
+  description={`${description} · ${themeConfig.site.description}`}
   type="post"
 >
   <BaseHead
     title={`${title} · ${themeConfig.site.title}`}
-    description={themeConfig.site.description}
+    description={`${description} · ${themeConfig.site.description}`}
     ogImage={ogImage}
     slot="head"
   />
@@ -43,6 +49,7 @@ const ogImage = `/open-graph/${postSlug}.png`
         {themeConfig.post.toc && <TableOfContents toc={toc} />}
         <div class="title">
           <h1>{title}</h1>
+          <p>{description}</p>
           <div class="date">
             <FormattedDate date={pubDate} context="post" />
             {
@@ -56,6 +63,10 @@ const ogImage = `/open-graph/${postSlug}.png`
           </div>
         </div>
         <slot />
+        <div class="share">
+  <SocialShare buttons={BUTTONS} title={title} description={description} />
+</div>        <script defer src="https://comments.sanjaybudhia.dev/js/commento.js"></script>
+        <div id="commento"></div>
       </div>
     </main>
     <FootnoteScroll />
@@ -75,7 +86,8 @@ const ogImage = `/open-graph/${postSlug}.png`
     flex-direction: column;
     flex: 1;
   }
-
+  .share :is(a,button){ color: inherit; }
+  .share svg *{ fill: currentColor !important; }
   .post-container main {
     flex: 1;
   }
