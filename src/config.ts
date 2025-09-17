@@ -3,8 +3,8 @@ import type { ThemeConfig } from './types'
 export const themeConfig: ThemeConfig = {
   // SITE INFO ///////////////////////////////////////////////////////////////////////////////////////////
   site: {
-    website: 'https://sanjaybudhia.dev/thoughts/', // Site domain
-    title: 'sanjay budhia - thoughts', // Site title
+    website: 'https://thoughts.sanjaybudhia.dev/', // Site domain
+    title: 'thoughts', // Site title
     author: 'sanjay budhia', // Author name
     description: "things i'm thinking about", // Site description
     language: 'en-US' // Default language
@@ -12,7 +12,7 @@ export const themeConfig: ThemeConfig = {
 
   // GENERAL SETTINGS ////////////////////////////////////////////////////////////////////////////////////
   general: {
-    contentWidth: '50rem', // Content area width
+    contentWidth: '45rem', // Content area width
     centeredLayout: true, // Use centered layout (false for left-aligned)
     themeToggle: false, // Show theme toggle button (uses system theme by default)
     postListDottedDivider: false, // Show dotted divider in post list
