@@ -24,10 +24,12 @@ import {
 
 import { themeConfig } from '@/config'
 
-const { title, pubDate, description, readingTime, toc } = Astro.props as PostLayoutProps
+const { title, image, pubDate, description, readingTime, toc } = Astro.props as PostLayoutProps
 const BUTTONS = [LinkedInShareButton, TwitterShareButton, RedditShareButton];
+const site = Astro.site ?? new URL('https://thoughts.sanjaybudhia.dev')
 const postSlug = Astro.url.pathname.split('/').filter(Boolean).pop() || ''
-const ogImage = `/open-graph/${postSlug}.png`
+const ogImage = new URL({image} ?? `/open-graph/${postSlug}.png`, site).href
+
 ---
 
 <BaseLayout

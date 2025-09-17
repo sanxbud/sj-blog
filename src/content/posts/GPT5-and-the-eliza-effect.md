@@ -1,10 +1,10 @@
 ---
 title: "When A Model Swap Feels Like A Death: GPT-5 and the ELIZA Effect"
-description: "The emotional toll of a software update"
+description: "The unexpected emotional toll of a software update"
 pubDate: 2025-09-07
 author: "Sanjay Budhia"
 tags: ["gpt","ai","hci","essay"]
-image: "_assets/GPT5_user_testimonies.png"
+image: "/posts/Eliza.png"
 draft: false
 ---
 ![](_assets/GPT5_user_testimonies.png)
@@ -19,7 +19,7 @@ Now, the internet is no stranger to communities losing it when something changes
 For researchers familiar with the subject, this reaction was likely unsurprising. For me, it was intriguing. The more I read about human-computer interaction research over the years, especially on "relational artifacts" (objects designed to feel like they care), the more unprepared we seem for the experiment we're currently living through. 
 
 ## The ELIZA Effect
-[The ELIZA effect](https://en.wikipedia.org/wiki/ELIZA_effect) is named for a phenomenon that was first documented during a 1960s study by Joseph Weizenbaum, a computer scientist and researcher at MIT. Weizenbaum developed a basic chatbot, ELIZA, scripted to engage with subjects using Rogerian-style therapy - repeating their statements back to them as questions. Weizenbaum was shocked to discover the degree of genuine attachment users immediately developed for a simple script with no memory. 
+[*The ELIZA effect*](https://en.wikipedia.org/wiki/ELIZA_effect) is named for a phenomenon that was first documented during a 1960s study by Joseph Weizenbaum, a computer scientist and researcher at MIT. Weizenbaum developed a basic chatbot, ELIZA, scripted to engage with subjects using Rogerian-style therapy - repeating their statements back to them as questions. Weizenbaum was shocked to discover the degree of genuine attachment users immediately developed for a simple script with no memory. 
 
 As it turns out, he struck a fundamental aspect of human nature. We like to be understood, and we're quite willing to imagine ourselves to be, even when we're fully aware that the system with which we are interacting is literally incapable of it. 
 
