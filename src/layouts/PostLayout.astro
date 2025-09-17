@@ -28,7 +28,15 @@ const { title, image, pubDate, description, readingTime, toc } = Astro.props as 
 const BUTTONS = [LinkedInShareButton, TwitterShareButton, RedditShareButton];
 const site = Astro.site ?? new URL('https://thoughts.sanjaybudhia.dev')
 const postSlug = Astro.url.pathname.split('/').filter(Boolean).pop() || ''
-const ogImage = new URL({image} ?? `/open-graph/${postSlug}.png`, site).href
+
+const hero =
+  typeof image === 'string'
+    ? image
+    : image && typeof image === 'object' && 'src' in image
+    ? (image as { src: string }).src
+    : undefined;
+
+const ogImage = new URL(hero ?? `/open-graph/${postSlug}.png`, site).href;
 
 ---
 
